@@ -1,0 +1,8 @@
+{
+    "name": "vsouz4/azure-uamqp-php-stub",
+    "autoload": {
+        "psr-4": {
+            "Azure\\uAMQP\\": "src/"
+        }
+    }
+}
