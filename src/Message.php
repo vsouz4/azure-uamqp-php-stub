@@ -31,6 +31,13 @@ class Message
     }
 
     /**
+     * @return array
+     */
+    public function getApplicationProperties(): ?array
+    {
+    }
+
+    /**
      * @param string $key
      * @param string $type
      * @param mixed  $value
