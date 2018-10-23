@@ -37,10 +37,25 @@ class Connection
     /**
      * @param string   $resourceName
      * @param callable $callback
+     * @param callable $loopFn
      *
      * @return void
      */
-    public function consume(string $resourceName, callable $callback): void
+    public function setCallback(string $resourceName, callable $callback, callable $loopFn): void
+    {
+    }
+
+    /**
+     * @return void
+     */
+    public function consume(): void
+    {
+    }
+
+    /**
+     * @return void
+     */
+    public function close(): void
     {
     }
 }
